@@ -5,6 +5,7 @@ define(["CollisionMgr"], function(CollisionMgr){
     var bullet_mat = new THREE.MeshPhongMaterial({color:0x0000ff, emissive: new THREE.Color( 1, 0, 0 )});
     var bullet_mat_tar = new THREE.MeshPhongMaterial({color:0x0000ff, emissive: new THREE.Color( 0, 0, 1 )});
 
+   
     var Bullet = function(control, scene, target){        
         var dir = control.getDirection();
         var pos = control.getObject().position;
