@@ -1,4 +1,4 @@
-//define('THREE', ['js/three.min'], function ( THREE ) { window.THREE = THREE; return THREE; });
+
 
 requirejs.config({
     baseUrl: '.',
