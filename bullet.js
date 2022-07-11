@@ -1,4 +1,5 @@
 define(["CollisionMgr"], function(CollisionMgr){
+   
         
     var bullet_geom = new THREE.SphereGeometry(1,20,20);
     var bullet_mat = new THREE.MeshPhongMaterial({color:0x0000ff, emissive: new THREE.Color( 1, 0, 0 )});
