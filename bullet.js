@@ -72,4 +72,4 @@ define(["CollisionMgr"], function(CollisionMgr){
     };
 
     return Bullet;
-});
+})
